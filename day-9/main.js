@@ -6,6 +6,6 @@
 //         }
 //     }
 // };
-let arr = [1, 1, "sdsd", 4, 5, 6];
+let arr = [1, 1, 4, 5, 6];
 let mySet = new Set(arr);
 console.log(mySet);

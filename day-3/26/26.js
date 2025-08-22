@@ -44,7 +44,7 @@ Constraints:
 -100 <= nums[i] <= 100
 nums is sorted in non-decreasing order.
 */
-function removeDuplicates(nums) {
+function _removeDuplicates(nums) {
     let left = 1;
     for (let right = 1; right < nums.length; right++) {
         if (nums[right] !== nums[right - 1]) {
