@@ -48,7 +48,7 @@ nums is sorted in non-decreasing order.
 
 
 
-function removeDuplicates(nums: number[]): number {
+function _removeDuplicates(nums: number[]): number {
 
   let left = 1;
 
