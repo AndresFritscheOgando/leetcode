@@ -32,7 +32,6 @@ fn main() {
     // find_intersection_values(nums1, nums2);
 
     let mut my_hash_set: HashSet<Vec<i32>> = HashSet::new();
-    my_hash_set.contains(&3);
     println!("{:#?}", my_hash_set);
 }
 
